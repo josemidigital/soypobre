@@ -54,14 +54,30 @@
 		3B79B87D217362BE00EF856C /* soypobre */ = {
 			isa = PBXGroup;
 			children = (
+				3B79B891217362F700EF856C /* controladores */,
+				3B79B890217362D400EF856C /* vistas */,
 				3B79B87E217362BE00EF856C /* AppDelegate.swift */,
-				3B79B880217362BE00EF856C /* ViewController.swift */,
-				3B79B882217362BE00EF856C /* Main.storyboard */,
 				3B79B885217362BF00EF856C /* Assets.xcassets */,
-				3B79B887217362BF00EF856C /* LaunchScreen.storyboard */,
 				3B79B88A217362BF00EF856C /* Info.plist */,
 			);
 			path = soypobre;
+			sourceTree = "<group>";
+		};
+		3B79B890217362D400EF856C /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				3B79B887217362BF00EF856C /* LaunchScreen.storyboard */,
+				3B79B882217362BE00EF856C /* Main.storyboard */,
+			);
+			path = vistas;
+			sourceTree = "<group>";
+		};
+		3B79B891217362F700EF856C /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				3B79B880217362BE00EF856C /* ViewController.swift */,
+			);
+			path = controladores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
